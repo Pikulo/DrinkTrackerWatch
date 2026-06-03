@@ -1,0 +1,333 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1BC299B754CF002593EA698C /* RecordDrinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB0A5240F33CB2A6F33945D /* RecordDrinkView.swift */; };
+		604CB7831AF5BE0C6F790A49 /* EditRecordSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = E158B9BFFAAAA809BC17A015 /* EditRecordSheet.swift */; };
+		94D8509AFF473D09B8FA98D1 /* DrinkTrackerWatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A59CEEC7700BD9FAB162C5D /* DrinkTrackerWatchApp.swift */; };
+		96277664047F8DC31CB782EB /* WatchModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6104C7BCA6FC4498D754917F /* WatchModels.swift */; };
+		AFF17DB1B33D894236165163 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B157E9A9E7413C0EB9581E /* ContentView.swift */; };
+		EC26F4243568641D523DB29B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC71F95060B2F1B8A9C3FDC5 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		31B157E9A9E7413C0EB9581E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		602702D4B1507C347B1D2EA1 /* DrinkTrackerWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrinkTrackerWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6104C7BCA6FC4498D754917F /* WatchModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchModels.swift; sourceTree = "<group>"; };
+		9A59CEEC7700BD9FAB162C5D /* DrinkTrackerWatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkTrackerWatchApp.swift; sourceTree = "<group>"; };
+		CC71F95060B2F1B8A9C3FDC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E158B9BFFAAAA809BC17A015 /* EditRecordSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditRecordSheet.swift; sourceTree = "<group>"; };
+		EFB0A5240F33CB2A6F33945D /* RecordDrinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordDrinkView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		69A29927675E2F1AC1E8F939 /* DrinkTrackerWatch */ = {
+			isa = PBXGroup;
+			children = (
+				CC71F95060B2F1B8A9C3FDC5 /* Assets.xcassets */,
+				31B157E9A9E7413C0EB9581E /* ContentView.swift */,
+				9A59CEEC7700BD9FAB162C5D /* DrinkTrackerWatchApp.swift */,
+				E71B4FA9AB0A41455C113EB6 /* Models */,
+				F58346913F0AB7DCDBABF82A /* Views */,
+			);
+			path = DrinkTrackerWatch;
+			sourceTree = "<group>";
+		};
+		7A60C629A237CAEDB799A592 = {
+			isa = PBXGroup;
+			children = (
+				69A29927675E2F1AC1E8F939 /* DrinkTrackerWatch */,
+				7E567FD533878AAF62D4CF77 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7E567FD533878AAF62D4CF77 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				602702D4B1507C347B1D2EA1 /* DrinkTrackerWatch.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E71B4FA9AB0A41455C113EB6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6104C7BCA6FC4498D754917F /* WatchModels.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F58346913F0AB7DCDBABF82A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E158B9BFFAAAA809BC17A015 /* EditRecordSheet.swift */,
+				EFB0A5240F33CB2A6F33945D /* RecordDrinkView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		02B012139743E1BEB7C0B3D9 /* DrinkTrackerWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64186031A29304BF5B9B3715 /* Build configuration list for PBXNativeTarget "DrinkTrackerWatch" */;
+			buildPhases = (
+				1D2F4BAD6618556BFBDE738C /* Sources */,
+				7A7009FE2238DDAAF8A40AB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DrinkTrackerWatch;
+			packageProductDependencies = (
+			);
+			productName = DrinkTrackerWatch;
+			productReference = 602702D4B1507C347B1D2EA1 /* DrinkTrackerWatch.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		222BF23E6E8100C2163D18EB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+				};
+			};
+			buildConfigurationList = 3BA0A1689050C6A4A1F38B9D /* Build configuration list for PBXProject "DrinkTrackerWatch" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 7A60C629A237CAEDB799A592;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 7E567FD533878AAF62D4CF77 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				02B012139743E1BEB7C0B3D9 /* DrinkTrackerWatch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7A7009FE2238DDAAF8A40AB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC26F4243568641D523DB29B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D2F4BAD6618556BFBDE738C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFF17DB1B33D894236165163 /* ContentView.swift in Sources */,
+				94D8509AFF473D09B8FA98D1 /* DrinkTrackerWatchApp.swift in Sources */,
+				604CB7831AF5BE0C6F790A49 /* EditRecordSheet.swift in Sources */,
+				1BC299B754CF002593EA698C /* RecordDrinkView.swift in Sources */,
+				96277664047F8DC31CB782EB /* WatchModels.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2C37B9952D4DBC53607E9596 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "喝水记录";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.drinking.app;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.drinking.app.watch;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_OBJC_LINKED_FRAMEWORKS = "";
+				TARGETED_DEVICE_FAMILY = 4;
+			};
+			name = Release;
+		};
+		6A880E2A55AC312D28C04A71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "喝水记录";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.drinking.app;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.drinking.app.watch;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_OBJC_LINKED_FRAMEWORKS = "";
+				TARGETED_DEVICE_FAMILY = 4;
+			};
+			name = Debug;
+		};
+		6BE6013435841C814ED668ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		6F6146220B043AC9E3F982DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3BA0A1689050C6A4A1F38B9D /* Build configuration list for PBXProject "DrinkTrackerWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BE6013435841C814ED668ED /* Debug */,
+				6F6146220B043AC9E3F982DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		64186031A29304BF5B9B3715 /* Build configuration list for PBXNativeTarget "DrinkTrackerWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A880E2A55AC312D28C04A71 /* Debug */,
+				2C37B9952D4DBC53607E9596 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 222BF23E6E8100C2163D18EB /* Project object */;
+}

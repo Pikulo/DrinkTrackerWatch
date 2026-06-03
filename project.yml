@@ -1,0 +1,32 @@
+name: DrinkTrackerWatch
+options:
+  bundleIdPrefix: com.drinking
+  xcodeVersion: "15.0"
+  createIntermediateGroups: true
+  generateEmptyDirectories: false
+
+settings:
+  base:
+    SDKROOT: watchos
+    SWIFT_VERSION: "5.9"
+    WATCHOS_DEPLOYMENT_TARGET: "10.0"
+    TARGETED_DEVICE_FAMILY: 4
+
+targets:
+  DrinkTrackerWatch:
+    type: application
+    platform: watchOS
+    sources:
+      - DrinkTrackerWatch
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.drinking.app.watch
+        CURRENT_PROJECT_VERSION: 1
+        MARKETING_VERSION: "1.0"
+        INFOPLIST_KEY_CFBundleDisplayName: "喝水记录"
+        INFOPLIST_KEY_WKCompanionAppBundleIdentifier: com.drinking.app
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        GENERATE_INFOPLIST_FILE: YES
+        SWIFT_OBJC_LINKED_FRAMEWORKS: ""
+        SUPPORTS_MACCATALYST: NO
+    dependencies: []
