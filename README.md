@@ -111,3 +111,17 @@ MIT License
 <div align="center">
   <sub>用 ❤️ 为 Apple Watch 打造</sub>
 </div>
+## 🔧 构建脚本
+
+项目提供了一键构建运行脚本 `run.sh`：
+
+```bash
+./run.sh          # 完整流程：生成项目 + 构建 + 启动模拟器 + 安装运行
+./run.sh gen      # 仅生成 Xcode 项目（需要 xcodegen）
+./run.sh build    # 仅构建
+./run.sh run      # 仅运行到模拟器（需先构建）
+./run.sh clean    # 清理构建缓存
+./run.sh help     # 显示帮助
+```
+
+> 首次使用前请确保已安装 xcodegen：`brew install xcodegen`
