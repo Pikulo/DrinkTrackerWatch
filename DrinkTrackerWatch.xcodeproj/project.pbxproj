@@ -8,21 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		1BC299B754CF002593EA698C /* RecordDrinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB0A5240F33CB2A6F33945D /* RecordDrinkView.swift */; };
+		3E1CACA89AC09ADE36D440C8 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59304C419416E864A48C864E /* SettingsView.swift */; };
 		604CB7831AF5BE0C6F790A49 /* EditRecordSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = E158B9BFFAAAA809BC17A015 /* EditRecordSheet.swift */; };
+		6EDCE3AEC3B0BE2F95643204 /* QuickDrinkEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D638C06139A9FBE06D91CFD /* QuickDrinkEditView.swift */; };
 		94D8509AFF473D09B8FA98D1 /* DrinkTrackerWatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A59CEEC7700BD9FAB162C5D /* DrinkTrackerWatchApp.swift */; };
 		96277664047F8DC31CB782EB /* WatchModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6104C7BCA6FC4498D754917F /* WatchModels.swift */; };
 		AFF17DB1B33D894236165163 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B157E9A9E7413C0EB9581E /* ContentView.swift */; };
+		CA26104FC21D537D7C017BE4 /* StatisticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29D4DD873E14DE3564C1E34 /* StatisticsView.swift */; };
 		EC26F4243568641D523DB29B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC71F95060B2F1B8A9C3FDC5 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2D638C06139A9FBE06D91CFD /* QuickDrinkEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickDrinkEditView.swift; sourceTree = "<group>"; };
 		31B157E9A9E7413C0EB9581E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		59304C419416E864A48C864E /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		602702D4B1507C347B1D2EA1 /* DrinkTrackerWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrinkTrackerWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6104C7BCA6FC4498D754917F /* WatchModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchModels.swift; sourceTree = "<group>"; };
 		9A59CEEC7700BD9FAB162C5D /* DrinkTrackerWatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkTrackerWatchApp.swift; sourceTree = "<group>"; };
 		CC71F95060B2F1B8A9C3FDC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E158B9BFFAAAA809BC17A015 /* EditRecordSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditRecordSheet.swift; sourceTree = "<group>"; };
 		EFB0A5240F33CB2A6F33945D /* RecordDrinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordDrinkView.swift; sourceTree = "<group>"; };
+		F29D4DD873E14DE3564C1E34 /* StatisticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -66,7 +72,10 @@
 			isa = PBXGroup;
 			children = (
 				E158B9BFFAAAA809BC17A015 /* EditRecordSheet.swift */,
+				2D638C06139A9FBE06D91CFD /* QuickDrinkEditView.swift */,
 				EFB0A5240F33CB2A6F33945D /* RecordDrinkView.swift */,
+				59304C419416E864A48C864E /* SettingsView.swift */,
+				F29D4DD873E14DE3564C1E34 /* StatisticsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -141,7 +150,10 @@
 				AFF17DB1B33D894236165163 /* ContentView.swift in Sources */,
 				94D8509AFF473D09B8FA98D1 /* DrinkTrackerWatchApp.swift in Sources */,
 				604CB7831AF5BE0C6F790A49 /* EditRecordSheet.swift in Sources */,
+				6EDCE3AEC3B0BE2F95643204 /* QuickDrinkEditView.swift in Sources */,
 				1BC299B754CF002593EA698C /* RecordDrinkView.swift in Sources */,
+				3E1CACA89AC09ADE36D440C8 /* SettingsView.swift in Sources */,
+				CA26104FC21D537D7C017BE4 /* StatisticsView.swift in Sources */,
 				96277664047F8DC31CB782EB /* WatchModels.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
